@@ -33,6 +33,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'leads',
     'rest_framework',
+    'frontend',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -52,6 +53,9 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'leadmanager.urls'
+
+# TEMPLATES_DIRS = os.path.join(BASE_DIR, 'src/templates/frontend')
+
 
 TEMPLATES = [
     {
